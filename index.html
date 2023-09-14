@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework 1</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <title>homework 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
 <header>
-      <!-- hero img -->
-        <a href="logo">WEB</a><a href="logo">STUDIO</a>
+      
+        <a class="web" href="logo">web</a><a class="studio" href="logo">studio</a>
     <nav>
         <ul>
-            <li><a href="studio">Studio</a></li>
+            <li><a class="main-studio" href="studio">Studio</a></li>
             <li><a href="portfolio">Portfolio</a></li>
             <li><a href="contacts">Contacts</a></li>
         </ul>
@@ -28,13 +31,16 @@
 </header>
 
 <main>
+    <!-- hero img -->
     <!-- Section # 1 -->
     <section>
-        <h1>Effective Solution <br>
+      <div class="hero">
+         <h1>Effective Solution <br>
             for Your Business</h1>
-        <button>Order Service</button>
+         <button>Order Service</button>
+      </div>
     
-        <ul>
+        <ul class="advantage">
             <li><b>Strategy</b></li>
             <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
             <li><b>Punctuality</b></li>
@@ -47,12 +53,12 @@
     </section>
     <!-- Section # 2 -->
     <section>
-        <h2>What are we doing</h2>
+        <h2>What Are We Doing</h2>
         <div>
             <ul>
-                <li><img src="images/img 1.png" width="250px" alt="Apple monitor"></li>
-                <li><img src="images/img 2.png" width="250px" alt="cellphone"></li>
-                <li><img src="images/img 3.png" width="250px" alt="cellphone with laptop"></li>
+                <li><img src="images/img 1.png" width="230px" alt="Apple monitor"></li>
+                <li><img src="images/img 2.png" width="230px" alt="cellphone"></li>
+                <li><img src="images/img 3.png" width="230px" alt="cellphone with laptop"></li>
             </ul>
         </div>
     </section>
@@ -61,7 +67,7 @@
     <section>
         <div>
             <h2>Our Team</h2>
-            <ul>
+            <ul class="team">
                 <li><img src="images/img.png" width="150px" alt="photo"></li>
                 <h3>Mark Guerrero</h3>
                 <p>Product Designer</p>
@@ -80,8 +86,8 @@
 </main>
    
     
-    <footer>
-        <a href="logo">WEB</a><a href="logo">STUDIO</a>
+    <footer class="notation">
+        <a class="web" href="logo">WEB</a><a class="studio" href="logo">STUDIO</a>
         <p>Increase the flow of customers and <br> 
            sales for your business with digital <br>
            marketing & growth solution.</p>
