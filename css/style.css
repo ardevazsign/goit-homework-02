@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 *{
-    margin: 0;
+    margin: 1px;
     padding: 0;
 }
 h1{
@@ -24,6 +24,14 @@ button{
     border-radius: 5px;
     padding:  2px;
     letter-spacing: .5px;
+button :hover{
+    background-color: white;
+    align-items: flex-start;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+    letter-spacing: .5px;
+}    
 
 }
 li > a{
@@ -82,16 +90,6 @@ li > a{
 /* section3 */
 .team{
     line-height: 35px;
-
-}
-.team > li{
-
-}
-.team > h3{
-
-}
-.team > p{
-
 }
 /* footer */
 .notation{
