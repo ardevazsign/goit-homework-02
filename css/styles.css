@@ -2,77 +2,77 @@
 *{
     margin: 1px;
     padding: 0;
-}
-h1{
-    background-color: #2E2F42;
-    color: #fff;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    text-transform: uppercase;
 }
-h2 {
-    margin-top: 15px;
-   text-align: center;
-   font-family: Roboto;
+a{
+    text-decoration: none;
 }
-button{
-    /* display: inline-flex; */
-    align-items: flex-start;
-    background: #4D5AE5;
-    color: #ffff;
-    border-radius: 5px;
-    padding:  2px;
-    letter-spacing: .5px;
-button :hover{
-    background-color: white;
-    align-items: flex-start;
-    color: black;
-    border-radius: 5px;
-    padding: 2px;
-    letter-spacing: .5px;
-}    
-
+ul > li {
+    list-style-type: none;
 }
 li > a{
     text-decoration: none;
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
-    font-style:normal;
+    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-
 }
-.hero{
-    background-color: #2E2F42;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    height: 121px;
+ul > li > a:hover{
+    color:#4D5AE5;
 }
-.web{
+.web {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
     text-transform: uppercase;
-    text-decoration: none;
 }
-.studio{
+.studio {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
-    text-transform: uppercase;
-    text-decoration: none;
+    text-transform: uppercase;   
 }
+/* Hero Image */
+/* Section1 */
+h1 {
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.hero {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #2E2F42;
+    height: 122px;
+ }
+ .button {
+     background: #4D5AE5;
+     color: #ffff;
+     border-radius: 5px;
+     padding: 2px;
+     letter-spacing: .5px;
+     cursor: pointer;
+ }
+ .button:hover {
+     background-color: rgb(12, 77, 240);
+     color: #ffff;
+     border-radius: 5px;
+     padding: 2px;
+     letter-spacing: .5px;
+ }
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Section 2 */
 .main-studio{
     color: var(--IRIS, #4D5AE5);
 }
@@ -87,10 +87,14 @@ li > a{
 .advantage > li{
     font-size: 20px;
 }
+
 /* section3 */
+
 .team{
     line-height: 35px;
-}
+}    
+
+
 /* footer */
 .notation{
     background-color: #2E2F42;
@@ -108,5 +112,4 @@ li > a{
     font-size: 14px;
     letter-spacing: 1px;
     margin-top: 10px;
-
 }

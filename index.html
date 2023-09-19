@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework 2</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,11 +13,11 @@
 <body>
     
 <header>
-      
-        <a class="web" href="logo">web</a><a class="studio" href="logo">studio</a>
-    <nav>
+        <a href="logo"><span class="web">web</span><span class="studio">studio</span></a>
+    
+    <nav class="top-menu">
         <ul>
-            <li><a class="main-studio" href="studio">Studio</a></li>
+            <li><a href="studio">Studio</a></li>
             <li><a href="portfolio">Portfolio</a></li>
             <li><a href="contacts">Contacts</a></li>
         </ul>
@@ -33,22 +33,31 @@
 <main>
     <!-- hero img -->
     <!-- Section # 1 -->
-    <section>
-      <div class="hero">
+    <section >
+        <div class="hero">
          <h1>Effective Solution <br>
             for Your Business</h1>
-         <button>Order Service</button>
-      </div>
+         <button type="button" class="button">Order Service</button>
+        </div>
+      
     
         <ul class="advantage">
-            <li><b>Strategy</b></li>
+            <li>
+            <b>Strategy</b>
             <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-            <li><b>Punctuality</b></li>
+            </li>
+            <li>
+            <b>Punctuality</b>
             <p>Bring the key message to the brand's audience for the best price within the shortest possible time</p>
-            <li><b>Diligence</b></li>
+            </li>
+            <li>
+            <b>Diligence</b>
             <p>Reasearch and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-            <li><b>Technologies</b></li>
+            </li>
+            <li>
+            <b>Technologies</b>
             <p>Design practise focused on digital experience. We bring forth a deep passion for problem-solving.</p>
+            </li>
         </ul>
     </section>
     <!-- Section # 2 -->
@@ -68,18 +77,25 @@
         <div>
             <h2>Our Team</h2>
             <ul class="team">
-                <li><img src="images/img.png" width="150px" alt="photo"></li>
+                <li><img src="images/img.png" width="150px" alt="photo">
                 <h3>Mark Guerrero</h3>
                 <p>Product Designer</p>
-                <li><img src="images/img 6.png" width="150px" alt="photo"></li>
+                </li>
+                <li>
+                <img src="images/img 6.png" width="150px" alt="photo">
                 <h3>Tom Ford</h3>
                 <p>Frontend Developer</p>
-                <li><img src="images/img 7.png" width="150px" alt="photo"></li>
+                </li>
+                <li>
+                <img src="images/img 7.png" width="150px" alt="photo">
                 <h3>Camilia Garcia</h3>
                 <p>Marketing</p>
-                <li><img src="images/img 8.png" width="150px" alt="photo"></li>
+                </li>
+                <li>
+                <img src="images/img 8.png" width="150px" alt="photo">
                 <h3>Daniel Wilson</h3>
                 <p>UI Designer</p>
+                </li>
             </ul>
         </div>
     </section>
